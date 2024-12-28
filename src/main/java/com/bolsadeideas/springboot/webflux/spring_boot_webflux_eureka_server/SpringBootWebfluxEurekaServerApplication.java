@@ -2,7 +2,9 @@ package com.bolsadeideas.springboot.webflux.spring_boot_webflux_eureka_server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
+@EnableEurekaServer
 @SpringBootApplication
 public class SpringBootWebfluxEurekaServerApplication {
 
